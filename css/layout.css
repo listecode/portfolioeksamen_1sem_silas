@@ -3,3 +3,18 @@
   padding: 0;
   margin: 0;
 }
+
+@media (min-width: 800px) {
+  .sidev2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .a_gotilresp {
+    width: 800px;
+  }
+  .tiger {
+    width: 700px;
+  }
+}
