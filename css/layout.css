@@ -17,4 +17,15 @@
   .tiger {
     width: 700px;
   }
+  .prot2forside {
+    width: 700px;
+  }
+  .uxpitchdeck {
+    width: 700px;
+  }
+  .protbilleder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
 }

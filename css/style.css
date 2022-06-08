@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* index html */
 
 /* header */
@@ -195,12 +198,29 @@ a {
 /* prototype 2 */
 
 .prot2forside {
-  width: 700px;
+  width: 400px;
   /* justify-content: center;
   align-items: center; */
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.prot2grid {
+  display: grid;
+}
+
+.prot2forside1 {
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.prot2h2 {
+  text-align: center;
+  margin: 5px;
+  color: white;
+  margin: 10px;
 }
 
 .prot2figcap {
@@ -219,4 +239,49 @@ a {
   color: white;
   border-radius: 5px;
   padding: 5px;
+}
+.protbilleder {
+  display: grid;
+  margin: 0 auto;
+  gap: 30px;
+}
+.protbillede {
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.seprot2 {
+  font-size: 1.5rem;
+  font-family: monospace;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+/* UX pitch deck */
+.uxpitchdeck {
+  border-radius: 5px;
+  width: 400px;
+}
+
+.uxknap {
+  place-self: end center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.uxforsidebillede {
+  width: 400px;
+  margin: 0 auto;
 }
