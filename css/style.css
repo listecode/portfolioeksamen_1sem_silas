@@ -104,9 +104,12 @@ main {
 
 .responsive {
   text-decoration: none;
-  color: black;
+  color: white;
+  border-radius: 5px;
   font-size: 2rem;
   font-weight: 600;
+  padding: 5px;
+  background-color: black;
 }
 
 .tigerogtitel {
@@ -186,4 +189,34 @@ a {
 .tigerknap {
   width: 400px;
   margin: 0 auto;
+}
+/* responsive v2 slut */
+
+/* prototype 2 */
+
+.prot2forside {
+  width: 700px;
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.prot2figcap {
+  color: black;
+  background: white;
+  border-radius: 5px;
+  place-self: end center;
+}
+
+.prototype2a {
+  place-self: end center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
 }
