@@ -5,11 +5,15 @@
 }
 
 @media (min-width: 800px) {
-  .sidev2 {
+  .respgrid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+  .respp {
+    padding: 20px;
   }
   .a_gotilresp {
     width: 800px;
@@ -27,5 +31,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+  }
+  .stage_light {
+    width: 700px;
   }
 }

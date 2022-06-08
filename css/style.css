@@ -2,7 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 /* index html */
-
+.tema4h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
 /* header */
 
 header {
@@ -78,6 +82,7 @@ main {
 
 .velkommen {
   color: white;
+  font-size: 2rem;
   padding: 20px;
   text-align: center;
   text-decoration: underline;
@@ -154,6 +159,10 @@ footer {
 a {
   text-decoration: none;
   color: black;
+}
+
+.respmain {
+  height: 100vh;
 }
 
 .a_gotilresp {
@@ -284,4 +293,15 @@ a {
 .uxforsidebillede {
   width: 400px;
   margin: 0 auto;
+}
+
+/* animation */
+.animationforside {
+  display: grid;
+}
+
+.stage_light {
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 5px;
 }
