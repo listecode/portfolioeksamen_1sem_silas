@@ -1,3 +1,5 @@
+/* burger menu */
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,6 +15,8 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: brown;
+  box-shadow: 1px 1px 20px red;
+  padding: 1rem;
 }
 
 nav ul {
@@ -161,10 +165,6 @@ a {
   color: black;
 }
 
-.respmain {
-  height: 100vh;
-}
-
 .a_gotilresp {
   font-size: 1.5rem;
   font-family: monospace;
@@ -190,7 +190,7 @@ a {
 }
 
 .resptext {
-  padding: 0px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   color: white;
   font-size: 18px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -217,6 +217,7 @@ a {
 
 .prot2grid {
   display: grid;
+  padding: 1rem;
 }
 
 .prot2forside1 {
@@ -264,6 +265,7 @@ a {
   font-size: 1.5rem;
   font-family: monospace;
   padding: 20px;
+  font-weight: 600;
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
@@ -292,9 +294,13 @@ a {
 
 .uxforsidebillede {
   width: 400px;
-  margin: 0 auto;
+  margin: 1rem auto;
+  border-radius: 5px;
 }
-
+.uxforside {
+  display: grid;
+  gap: 1rem;
+}
 /* animation */
 .animationforside {
   display: grid;
@@ -304,4 +310,27 @@ a {
   margin: 0 auto;
   width: 400px;
   border-radius: 5px;
+}
+
+.videretilprot2 {
+  padding: 100px;
+  margin: 0 auto;
+}
+
+.neste {
+  margin-bottom: 1rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* footer */
+footer {
+  box-shadow: 1px 1px 20px red;
+}
+
+/* pilotvideo */
+.pilotvideoen {
+  width: 400px;
+  border-radius: 5px;
+  padding: 1rem;
 }
