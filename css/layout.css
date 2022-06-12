@@ -35,4 +35,14 @@
   .stage_light {
     width: 700px;
   }
+
+  .mig {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+  }
+  .ommigmain {
+    margin: 0 auto;
+  }
 }
