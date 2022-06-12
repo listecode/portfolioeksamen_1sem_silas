@@ -31,17 +31,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+    border-radius: 5px;
   }
   .stage_light {
     width: 700px;
   }
 
-  .mig {
+  .me {
     display: grid;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
-    padding: 1rem;
+    max-width: 800px;
+    gap: 2rem;
   }
+
   .ommigmain {
     margin: 0 auto;
   }

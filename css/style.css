@@ -12,8 +12,8 @@ html {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: brown;
-  box-shadow: 1px 1px 20px red;
+  background-image: linear-gradient(orange, red);
+  box-shadow: 1px 1px 20px orange;
   padding: 1rem;
 }
 
@@ -85,6 +85,7 @@ main {
   width: 55vh;
   margin-bottom: 20px;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 .velkommen {
@@ -96,7 +97,8 @@ main {
 }
 
 .opgaver {
-  background-color: brown;
+  /* background-color: brown; */
+  background-image: linear-gradient(orange, red, yellow, brown);
   display: grid;
   gap: 20px;
 }
@@ -106,6 +108,7 @@ main {
   padding: 20px;
   font-weight: 600;
   text-decoration: underline;
+  color: white;
 }
 
 .tiger {
@@ -313,7 +316,6 @@ a {
   margin: 0 auto;
   width: 400px;
   border-radius: 5px;
-  padding: 10px;
 }
 
 .videretilprot2 {
@@ -341,24 +343,110 @@ footer {
 
 /* om mig */
 .silas {
-  width: 400px;
   border-radius: 5px;
+  margin: 10px auto;
+  width: 400px;
 }
 
-.mig {
+.me {
   margin: 0 auto;
 }
 .kontaktbox {
-  background-color: black;
+  background-color: brown;
   border-radius: 5px;
-  padding: 1rem;
-  margin: 0 auto;
 }
 
 .billed {
   display: grid;
+  margin: 0 auto;
 }
 
 ul li {
   list-style: none;
+}
+
+.ommigk {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.cv {
+  width: 400px;
+}
+
+/* til toppen */
+.tiltop {
+  font-size: 1.5rem;
+  font-family: monospace;
+  padding: 20px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+/* hover */
+nav ul a:hover {
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.responsive:hover {
+  color: white;
+  background-color: orange;
+  transition: 0.5s;
+}
+
+.prototype2a:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.5s;
+}
+
+.uxknap:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.5s;
+}
+.tiltop:hover{
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+.a_gotilresp:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.seprot2:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+/* clicked */
+.tiltop:active {
+  color: white;
+  background-color: white
+}
+
+nav ul a:active {
+  color: white;
+  background-color: white
+  transition: 0.5s;
+}
+
+.responsive:active {
+  color: white;
+}
+
+.prototype2a:active {
+  color: white;
+  transition: 0s;
 }
