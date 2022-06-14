@@ -6,6 +6,7 @@ html {
   text-align: center;
   color: white;
   font-size: 2rem;
+  margin-top: 20px;
 }
 /* header */
 
@@ -16,7 +17,7 @@ header {
   box-shadow: 1px 1px 20px orange;
 }
 .dark header {
-  background-image: linear-gradient(black, grey);
+  background-image: linear-gradient(grey, black);
   transition: 1s;
 }
 
@@ -175,6 +176,7 @@ main {
   color: white;
   text-align: center;
   font-size: 30px;
+  margin-top: 20px;
 }
 /* footer */
 footer {
@@ -310,6 +312,7 @@ a {
 .uxpitchdeck {
   border-radius: 5px;
   width: 400px;
+  margin-top: 20px;
 }
 
 .uxknap {
@@ -342,6 +345,7 @@ a {
   margin: 0 auto;
   width: 400px;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .videretilprot2 {
@@ -381,7 +385,10 @@ footer {
   background-color: brown;
   border-radius: 5px;
 }
-
+.dark .kontaktbox {
+  color: white;
+  background-color: black;
+}
 .billed {
   display: grid;
   margin: 0 auto;
@@ -503,6 +510,11 @@ nav ul a:active {
   height: 60px; */
   /* padding: 10px; */
   font-size: 1.2rem;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .portknap {
@@ -557,6 +569,7 @@ nav ul a:active {
   display: grid;
   border: 2px solid black;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .tiltop {
