@@ -12,9 +12,12 @@ html {
 header {
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(orange, red);
+  background-image: linear-gradient(orange, darkred);
   box-shadow: 1px 1px 20px orange;
-  padding: 1rem;
+}
+.dark header {
+  background-image: linear-gradient(black, grey);
+  transition: 1s;
 }
 
 nav ul {
@@ -31,6 +34,7 @@ nav ul a {
   font-size: 1.2rem;
   color: white;
   padding: 10px;
+  transition: 1s;
 }
 
 .svg {
@@ -49,7 +53,9 @@ nav a {
 /* main */
 
 main {
-  background-image: linear-gradient(red, orange);
+  /* find roligere farver */
+  /* background-image: linear-gradient(darkred, orange); */
+  background-color: snow;
 }
 
 figure figcaption {
@@ -75,11 +81,20 @@ figure > * {
 .intro {
   display: grid;
   align-items: center;
-  background-image: linear-gradient(red, orange);
+  background-image: linear-gradient(darkred, red);
+  transition: 1s;
+  /* background-color: snow; */
+}
+
+.dark .intro {
+  background-image: linear-gradient(grey, black);
 }
 
 main {
   background-color: darkred;
+}
+.dark main {
+  background-color: black;
 }
 .mig {
   width: 55vh;
@@ -98,9 +113,13 @@ main {
 
 .opgaver {
   /* background-color: brown; */
-  background-image: linear-gradient(orange, red, yellow, brown);
-  display: grid;
-  gap: 20px;
+  background-image: linear-gradient(red, orange, darkred);
+
+  transition: 1s;
+}
+.dark .opgaver {
+  background-image: linear-gradient(black, darkgrey);
+  transition: 1s;
 }
 .h1mineopgaver {
   text-align: center;
@@ -128,6 +147,7 @@ main {
   font-weight: 600;
   padding: 5px;
   background-color: black;
+  transition: 1s;
 }
 
 .tigerogtitel {
@@ -160,6 +180,10 @@ main {
 footer {
   text-align: center;
   background-color: brown;
+}
+.dark footer {
+  background-color: darkgray;
+  transition: 1s;
 }
 
 /* index html slut */
@@ -255,6 +279,7 @@ a {
   color: white;
   border-radius: 5px;
   padding: 5px;
+  transition: 1s;
 }
 .protbilleder {
   display: grid;
@@ -296,6 +321,7 @@ a {
   color: white;
   border-radius: 5px;
   padding: 5px;
+  transition: 1s;
 }
 
 .uxforsidebillede {
@@ -373,6 +399,8 @@ ul li {
 
 .cv {
   width: 400px;
+  margin: 0 auto;
+  display: grid;
 }
 
 /* til toppen */
@@ -397,6 +425,10 @@ nav ul a:hover {
   transition: 0.5s;
 }
 
+.kontaktlink:hover {
+  color: black;
+}
+
 .responsive:hover {
   color: white;
   background-color: orange;
@@ -414,18 +446,18 @@ nav ul a:hover {
   color: white;
   transition: 0.5s;
 }
-.tiltop:hover{
+.tiltop:hover {
   background-color: black;
   color: white;
   transition: 1s;
 }
 
-.a_gotilresp:hover{
+.a_gotilresp:hover {
   background-color: black;
   color: white;
   transition: 0.5s;
 }
-.seprot2:hover{
+.seprot2:hover {
   background-color: black;
   color: white;
   transition: 0.5s;
@@ -433,12 +465,12 @@ nav ul a:hover {
 /* clicked */
 .tiltop:active {
   color: white;
-  background-color: white
+  background-color: white;
 }
 
 nav ul a:active {
   color: white;
-  background-color: white
+  background-color: white;
   transition: 0.5s;
 }
 
@@ -449,4 +481,84 @@ nav ul a:active {
 .prototype2a:active {
   color: white;
   transition: 0s;
+}
+
+.kontaktlink {
+  /* padding: 10px 10px 10px 10px; */
+  color: white;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+/* dark mode */
+.intro .dark {
+  background-color: black;
+  transition: 1s;
+}
+
+.btn {
+  /* width: 60px;
+  height: 60px; */
+  /* padding: 10px; */
+  font-size: 1.2rem;
+}
+
+.portknap {
+  place-self: end center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 1s;
+}
+
+/* portfolio side */
+.portfolioside {
+}
+
+.favport {
+  place-self: end center;
+  margin-bottom: 100px;
+}
+
+.portimg {
+  width: 400px;
+  height: 200px;
+  transition: 1s;
+  margin: 0 auto;
+}
+
+.portimg:hover {
+  /* width: 370px;
+  height: 220; */
+  padding: 20px;
+  transition: 1s;
+}
+
+.portknap:hover {
+  background: white;
+  color: black;
+  transition: 1s;
+}
+
+.billedegridport {
+  display: grid;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.whitebox {
+  width: 400px;
+  display: grid;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.tiltop {
+  width: 400px;
 }
